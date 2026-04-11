@@ -75,13 +75,30 @@ Example export command:
 inkscape 20260220-workbench.svg \
   --export-type=png \
   --export-filename=20260220-workbench.png \
-  --export-width=3200
+  --export-width=3200 \
+  --export-background='#ffffff' \
+  --export-background-opacity=1
 ```
 
 ---
 
-If you want, I can also add:
+## Materials required (summarized from the cutlist)
 
-1. a **material yield plan** (how many sheets/boards needed),
-2. a **build sequence** checklist (assembly order), and
-3. a **hardware/BOM** section (slides, screws, inserts, etc.).
+### Sheet goods (`20260220-workbench-cutlist.pdf`)
+
+- Stock size in plan: **2400 x 1200mm**
+- Total stock sheets: **8 sheets**
+  - **6x** Plywood Construction `17mm`
+  - **2x** Plywood Form Film Coated / FormPly `17mm`
+- Used area: **14,900,800 mm²** (~**14.90 m²**, **65%**)
+- Wasted area: **8,139,200 mm²** (~**8.14 m²**, **35%**)
+- Total cuts: **67**
+- Total cut length: **62,498 mm**
+- Kerf used by optimizer: **3mm**
+
+### Solid stock
+
+- `TableFeet` — **8 pcs** at `90 x 45 x 100mm`
+
+### Notes
+- Verify final dimensions against `20260220-workbench-cutlist.pdf` and `20260220-workbench.svg` before cutting.

@@ -24,6 +24,6 @@
   <g fill="#f8fafc" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace">
     <text x="90" y="160" font-size="62" font-weight="700">MFT Workbench</text>
     <text x="90" y="220" font-size="36" opacity="0.95">Build Plans • Cut List • Shop Notes</text>
-    <text x="90" y="288" font-size="24" opacity="0.85">GPT-crafted project banner</text>
+    <text x="90" y="288" font-size="24" opacity="0.85">Custom workshop build plan</text>
   </g>
 </svg>
