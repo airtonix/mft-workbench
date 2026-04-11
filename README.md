@@ -35,9 +35,10 @@ A visual render of the plan:
   - **Laterally** (side-by-side)
   - **In parallel** (end-to-end / aligned runs)
 - Use over-center **toggle latches** to clamp and lock the tables together at the join points.
-- Reference latch hardware:
-  - `./ToggleLatchLarge.webp`
-  - `./ToggleLatchSmall.webp`
+
+![Large Toggle Latch](./ToggleLatchLarge.webp)
+
+![Small Toggle latch](./ToggleLatchSmall.webp)
 
 ### Collapsible castors / feet arrangement
 
