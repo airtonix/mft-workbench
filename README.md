@@ -2,7 +2,6 @@
 
 # MFT Workbench Project
 
-This repository is a **woodworking project**, not a software project.
 
 It contains the build drawings and cut list for an MFT-style workbench system made from sheet goods and framing stock.
 
@@ -12,7 +11,6 @@ It contains the build drawings and cut list for an MFT-style workbench system ma
 - `20260220-workbench.png` — PNG render exported from the SVG
 - `20260220-workbench.pdf` — plan export
 - `20260220-workbench-cutlist.pdf` — printable cut list
-- `banner.svg` / `banner.png` — GPT-generated README banner
 
 ## Drawing summary (from the SVG)
 
@@ -26,6 +24,28 @@ The SVG appears to include:
 A visual render of the plan:
 
 ![Workbench Plan](./20260220-workbench.png)
+
+## Joining concept and castor/feet layout
+
+### Table joining concept
+
+![Joined table concept](./JoinedConcept.png)
+
+- The two tables are intended to be joined in both orientations:
+  - **Laterally** (side-by-side)
+  - **In parallel** (end-to-end / aligned runs)
+- Use over-center **toggle latches** to clamp and lock the tables together at the join points.
+- Reference latch hardware:
+  - `./ToggleLatchLarge.webp`
+  - `./ToggleLatchSmall.webp`
+
+### Collapsible castors / feet arrangement
+
+![Collapsible castors concept](./CollapsiableCastors.png)
+
+- Feet/castors must be arranged as shown in `./CollapsiableCastors.png`.
+- Key requirement: the feet/castor hardware must not protrude into the join plane, or the two tables will not mate flush.
+- In practice: keep all deployed/retracted castor geometry clear of the mating faces used for table-to-table joining.
 
 ## Extracted cut list text (as labeled in the SVG)
 
